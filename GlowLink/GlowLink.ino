@@ -18,7 +18,7 @@ void setup() {
   Serial.begin(115200);
   
   // try to connect to WiFi network
-  if (!wifiManager.autoConnect("Blaze")) {
+  if (!wifiManager.autoConnect("GlowLink")) {
     Serial.println("Failed to connect and hit timeout");
     delay(3000);
     ESP.reset();
